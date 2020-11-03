@@ -1,0 +1,57 @@
+body{
+    font-family: 'Balsamiq Sans', cursive;
+   color: #b25784;
+   background-color: #efdde6;
+   text-align: center;
+}
+
+
+.container{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  .card{
+    border:1px solid transparent;
+    border-radius: 15%;
+    margin:10px;
+    transition:all .3s;
+    width:100px;
+    height:100px;
+    transform:perspective(500px) translate3d(0px,0px,20px) rotateY(30deg);
+    cursor:pointer;
+  }
+  .plants{
+    background-image:url('https://previews.123rf.com/images/afanasia/afanasia1608/afanasia160800039/61097493-conjunto-de-acuarela-hojas-y-ramas-aisladas-en-blanco-colecci%C3%B3n-de-hierbas-abstractas-dibujadas-a-mano-.jpg');
+    background-size:cover;
+  }
+  .flowers{
+    background-image:url('https://i0.wp.com/thepostmansknock.com/wp-content/uploads/2013/03/annablogcard1.jpg?fit=768%2C513&ssl=1');
+    background-size:cover;
+  }
+  .sea{
+    background-image:url('https://previews.123rf.com/images/dariaustiugova/dariaustiugova1803/dariaustiugova180300079/97285641-marina-playa-tropical-de-verano-con-arena-dorada-y-palmeras-dibujado-a-mano-ilustraci%C3%B3n-acuarela-horizo.jpg');
+    background-size:cover;
+  }
+  .night{
+    background-image:url('https://i.pinimg.com/originals/db/ef/f0/dbeff0784c13d5e556dbd04e9f0dac9a.jpg');
+    background-size:cover;
+  }
+  .bird{
+    background-image:url('https://images.mojarto.com/photos/270315/large/hummingbird.jpg?1566758180');
+    background-size:cover;
+  }
+  .gem{
+    background-image:url('https://image.freepik.com/vector-gratis/gemas-acuarela-cristales-hojas-acuarela-dibujada-mano_154848-336.jpg');
+    background-size:cover;
+  }
+  .cover{
+    transform:perspective(500px) translate3d(0px,0px,20px) rotateY(140deg);
+    background:#b25784;
+  }
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+  }
